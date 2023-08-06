@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/school.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sniglet' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <title>Aaron's website</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- TOP NAVBAR -->
+    <div class="header">
+        <div class="container p-2">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a href="index.html" class="navbar-brand">Aaron</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                    <ul class="navbar-nav text-center ms-auto">
+                        <li><a class="nav-link" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="goals.html">Goals</a></li>
+                        <li><a class="nav-link disabled" href="school.html">SP</a></li>
+                        <li><a class="nav-link" href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- TOP NAVBAR -->
+
+    <div class="frontpage">
+        <div class="sp d-flex justify-content-center align-items-center">
+            <img src="/images/SP.png" alt="sp-logo">
+        </div>
+    </div>
+
+    <div class="about-section">
+        <h1 class="d-flex justify-content-center m-5">About SP</h1>
+        <h2 class="p-5 m-5">Singapore Polytechnic (SP) is one of the leading polytechnics in Singapore and is the first
+            polytechnic established in the country. It was founded in 1954 and has since grown to become one of the
+            largest and most well-known institutions for tertiary education in Singapore.</h2>
+
+        <!-- BOOTSTRAP CAROUSELL SECTION -->
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="container">
+                    <!-- CAROUSEL ONE -->
+                    <!-- FIRST TWO SECTIONS ARE CARD SECTIONS -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="d-flex justify-content-center card-title m-3">Common Core Curriculum
+                                        </h5>
+                                        <div class="sp-icon d-flex justify-content-center m-5">
+                                            <img src="images/SPIcons/curriculum.png" class="card-img-top" alt="ccc">
+                                        </div>
+                                        <p class="card-text m-5">Some diplomas in SP offers this common core curriculum
+                                            which allows students to learn more about the SG Green Plan and the United
+                                            Nations' Sustainable Development Goals. This will help get them to come up
+                                            with
+                                            their own solutions to these sustainability issues.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-none d-lg-block col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="d-flex justify-content-center card-title m-3">Species of plants</h5>
+                                        <div class="sp-icon d-flex justify-content-center m-5">
+                                            <img src="images/SPIcons/flora.png" class="card-img-top" alt="flora">
+                                        </div>
+                                        <p class="card-text m-5">SP contains around 230+ different species of plants in
+                                            its
+                                            campus, including their Brown Woolly Fig Heritage Trees found near Food
+                                            Court 1.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-none d-lg-block col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="d-flex justify-content-center card-title m-3">Green Mark Platinum
+                                            Buildings</h5>
+                                        <div class="sp-icon d-flex justify-content-center m-5">
+                                            <img src="images/SPIcons/green-mark-buildings.png" class="card-img-top"
+                                                alt="buildings">
+                                        </div>
+                                        <p class="card-text m-5">4 buildings in SP have been certified Green Mark
+                                            Platinum
+                                            with on-going efforts to certify all 22 buildings in SP by 2025. (T18A,
+                                            T18B,
+                                            T3B and SP Sports Arena)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END OF CAROUSEL ONE -->
+
+                    <!-- CAROUSEL TWO -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="d-flex justify-content-center card-title m-3">Smart Sensors</h5>
+                                        <div class="sp-icon d-flex justify-content-center m-5">
+                                            <img src="images/SPIcons/sensors.png" class="card-img-top" alt="sensors">
+                                        </div>
+                                        <p class="card-text m-5">There are 500+ smart sensors placed around the SP
+                                            campus to monitor air quality and track human traffic to ensure the health
+                                            and well-being of students and staffs.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-none d-lg-block col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="d-flex justify-content-center card-title m-3">Smart Offices</h5>
+                                        <div class="sp-icon d-flex justify-content-center m-5">
+                                            <img src="images/SPIcons/smart-offices-icons.png" class="card-img-top"
+                                                alt="offices">
+                                        </div>
+                                        <p class="card-text m-5">Smart offices in SP help moderate the air quality using
+                                            temperature sensors to ensure the health and well-being of staffs.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-none d-lg-block col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="d-flex justify-content-center card-title m-3">Water Dispensors</h5>
+                                        <div class="sp-icon d-flex justify-content-center m-5">
+                                            <img src="images/SPIcons/water-dispensers.png" class="card-img-top"
+                                                alt="water">
+                                        </div>
+                                        <p class="card-text m-5">SP has 110+ water dispensors placed throughout the
+                                            entire campus to encourage students to use reusable bottles instead of
+                                            plastic bottles.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END OF CAROUSEL TWO -->
+
+                    <!-- CAROUSEL THREE -->
+                    <!-- THIS SECTION IS EXAMPLES OF SP -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a
+                                    href="https://www.sp.edu.sg/sp/news/sp/190-asean-students-discuss-environmental-sustainability">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="images/SPIcons/ccp.jpg" alt="ccp">
+                                    </div>
+
+                                </a>
+                                <h3 class="example-description">Singapore to equip workers with relevant skills for
+                                    green economy</h3>
+                            </div>
+                            <div class="d-none d-lg-block col-lg-4">
+                                <a
+                                    href="https://www.sp.edu.sg/sp/news/sp/singapore-poly-launches-country%27s-first-ever-solar-photovoltaics-recycling-line">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="images/SPIcons/pv-recycling-line.jpg" alt="pv-recycling-line">
+                                    </div>
+
+                                </a>
+                                <h3 class="example-description">SP launches Singapore's first-ever solar photovoltaics
+                                    recycling line</h3>
+                            </div>
+                            <div class="d-none d-lg-block col-lg-4">
+                                <a
+                                    href="https://www.sp.edu.sg/sp/news/sp/190-asean-students-discuss-environmental-sustainability">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="images/SPIcons/ymac.jpg" alt="ymac">
+                                    </div>
+
+                                </a>
+                                <h3 class="example-description">190 ASEAN students discuss environmental sustainability
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END OF CAROUSEL ITEMS -->
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- CAROUSELL -->
+    </div>
+
+
+    <!-- BOTTOM NAVBAR-->
+    <footer>
+        <ul class="d-flex justify-content-center">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="school.html">SP</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </footer>
+    <!-- BOTTOM NAVBAR -->
+</body>
+
+</html>

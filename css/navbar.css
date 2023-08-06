@@ -1,0 +1,42 @@
+/* Since this css file is going to be in every html file, I make some default changes */
+* {
+    margin:0;
+    padding: 0;
+    color: rgb(95, 106, 110);
+}
+
+/* HEADER SECTION */
+.header{
+    background-color: rgb(183,228,199);
+}
+
+.navbar{
+    font: bold 20px "Sniglet", sans-serif;
+}
+
+.header{
+    border-bottom: 3px solid #52B788;
+}
+
+
+/* FOOTER SECTION */
+footer{
+    border-top: 5px solid rgb(53, 53, 53);
+    background-color: rgb(81, 76, 76);
+}
+footer ul{
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+footer ul li{
+    margin: 30px;
+
+}
+footer ul li a{
+    color: antiquewhite;
+    font: bold 20px "Sniglet", sans-serif;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: white;
+}

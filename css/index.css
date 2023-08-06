@@ -1,0 +1,149 @@
+/* front welcome page */
+.front-page{
+  height: 60vh;
+  background-color: rgb(233, 243, 235);
+}
+.front-page h1{
+  font: bold 100px "Sofia", sans-serif;
+}
+.front-page h2{
+  font: bold 30px "Sniglet", sans-serif;
+}
+.leaf{
+  width: 65%;
+}
+
+/* Style for each row */
+.about-section {
+  background-color: #1B4332;
+  border-top: 5px solid #52B788;
+}
+.about-section h1{
+  font: bold 100px "Sofia", sans-serif;
+  color: #d8f3dc;
+  border-bottom: 2px solid #50ab82;
+}
+.about-section h3{
+  color: #D8F3DC;
+  font: bold 37px "Sniglet", sans-serif;
+}
+.me-section{
+  padding-bottom: 15vh;
+}
+.button{
+  border: none;
+  border-bottom: 5px solid #40916C;
+  background-color: #97c6a6;
+  border-radius: 6px;
+  font: bold 30px "Sniglet", sans-serif;
+  transform: translateY(5px);
+}
+.button.active{
+  border: 5px solid #40916C;
+  border-bottom: none;
+  background-color: #B7E4C7;
+}
+.content{
+  display:none;
+  padding-bottom: 5vh;
+}
+.content.active{
+  background-color: #B7E4C7;
+  border: 5px solid #40916C;
+  border-radius: 50px;
+  display: block;
+}
+.title-shadow{
+  text-shadow: 2px 2px #000000;/* text shadow!!!! */
+}
+.grey{
+  font: bold 30px "Sniglet", sans-serif;
+}
+.value-title{
+  font: bold 50px "Sniglet", sans-serif;
+}
+.contents{
+  font-size: 20px;
+}
+.percentage-extravert{
+  color: rgb(117, 149, 201);
+}
+.percentage-observant{
+  color: rgb(232, 195, 75);
+}
+.percentage-feeling{
+  color: rgb(4, 130, 67);
+}
+.percentage-prospecting{
+  color: rgb(100, 12, 155);
+}
+
+figcaption{
+  background-color: rgba(80, 171, 130, 0.21);
+}
+.hobbies{
+  width: 80%;
+  border: 10px solid #1B4332;
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} 
+.tabs{
+  padding-bottom: 15vh;
+}
+
+
+
+/* styling the down arrow button */
+.down-arrow {
+  animation: arrowJump 2s infinite;
+  width: 30px;
+  position: absolute;
+  left: 5px;
+  top: 8px;
+}
+
+.down-arrow-border{
+  position: absolute;
+  top: 60vh;
+  left: 50%;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 25px 20px 25px 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Animation for down arrow */
+
+.down-arrow-border:hover{
+  border-color: rgb(129, 129, 129);
+}
+
+@keyframes arrowJump {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}

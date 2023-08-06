@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/goals.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sniglet' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Aaron's website</title>
+</head>
+
+<body>
+  <script src="js/goals.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- TOP NAVBAR -->
+  <div class="header">
+    <div class="container p-2">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a href="index.html" class="navbar-brand">Aaron</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav text-center ms-auto">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link disabled" href="goals.html">Goals</a></li>
+            <li><a class="nav-link" href="school.html">SP</a></li>
+            <li><a class="nav-link" href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- TOP NAVBAR -->
+
+  <div class="main">
+    <h1 class="d-flex justify-content-center align-items-center">Goals</h1> <!-- Page front title -->
+  </div>
+
+  <!-- Goals visual representation -->
+  <div class="row2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+          <h1>What are my goals?</h1>
+          <p>(Hover on the globe)</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <img onmouseover="showText()" onmouseout="hideText()" src="images/globe.png" alt="globe"
+            class="color img-fluid" id="globe">
+          <!-- Globe Image: https://pixabay.com/illustrations/globe-earth-world-transparency-1348777/ -->
+          <h3 id="text">To save the Earth!</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of visual representation -->
+
+  <!-- GOAL CARDS -->
+  <h1 class="title blue d-flex justify-content-center">My general goals</h1>
+  <div class="cards">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card p-4">
+            <h1 class="d-flex justify-content-center">#1</h1>
+            <h2>Donate money</h2>
+            <p>First of all, If I am unsure about what I can do I can set aside some of my money to give to an
+              organization to use the money for a better cause instead of me spending my money on other things, so that they can help the Earth.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card p-4">
+            <h1 class="d-flex justify-content-center">#2</h1>
+            <h2>Living within my means</h2>
+            <p>Most of the time, I would buy too many things like clothes and food. Currently, my closet is filled with
+              clothes that I do not wear as often. Therefore, from now on I can start by spending less, less often.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card p-4">
+            <h1 class="d-flex justify-content-center">#3</h1>
+            <h2>The 3 Rs</h2>
+            <p>Most importantly, one of the fundamental rules taught to us when we were in primary school were the 3 Rs
+              which stand for Reduce, Reuse and Recycle. So personally, I can start reducing my waste produced by buying
+              less items. Reusing the things I buy such as plastic bottles. Recycling anything I don't use anymore.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- END OF GOAL CARDS -->
+
+
+  <div class="green">
+    <h2 class="d-flex justify-content-center align-items-center">My aim is to use my skillset such as coding to help
+      make the earth more environmentally friendly. Here's a simple tic tac toe game I made. (click on the square to start a game)</h2>
+  </div>
+
+  <!-- GAME -->
+  <div class="green d-flex align-items-center p-5" id="jump">
+    <div class="game container">
+      <div class="space"></div>
+      <div class="row">
+        <div class="col-4">
+          <button onclick="playerSelect('b11')"><img class="img-fluid" src="images/blank.png" alt="square" id="b11"></button>
+        </div>
+        <div class="col-4">
+          <button onclick="playerSelect('b12')"><img class="img-fluid" src="images/blank.png" alt="square" id="b12"></button>
+        </div>
+        <div class="col-4">
+          <button onclick="playerSelect('b13')"><img class="img-fluid" src="images/blank.png" alt="square" id="b13"></button>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="row">
+        <div class="col-4">
+          <button onclick="playerSelect('b21')"><img class="img-fluid" src="images/blank.png" alt="square" id="b21"></button>
+        </div>
+        <div class="col-4">
+          <button onclick="playerSelect('b22')"><img class="img-fluid" src="images/blank.png" alt="square" id="b22"></button>
+        </div>
+        <div class="col-4">
+          <button onclick="playerSelect('b23')"><img class="img-fluid" src="images/blank.png" alt="square" id="b23"></button>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="row">
+        <div class="col-4">
+          <button onclick="playerSelect('b31')"><img class="img-fluid" src="images/blank.png" alt="square" id="b31"></button>
+        </div>
+        <div class="col-4">
+          <button onclick="playerSelect('b32')"><img class="img-fluid" src="images/blank.png" alt="square" id="b32"></button>
+        </div>
+        <div class="col-4">
+          <button onclick="playerSelect('b33')"><img class="img-fluid" src="images/blank.png" alt="square" id="b33"></button>
+        </div>
+      </div>
+      <div class="space"></div>
+    </div>
+  </div>
+  <!-- GAME -->
+  
+  <!-- BOTTOM NAVBAR-->
+  <footer>
+    <ul class="d-flex justify-content-center">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="goals.html">Goals</a></li>
+      <li><a href="school.html">SP</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+  </footer>
+  <!-- BOTTOM NAVBAR -->
+</body>
+
+</html>

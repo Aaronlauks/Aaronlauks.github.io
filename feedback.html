@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="css/feedback.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sniglet' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- TOP NAVBAR -->
+  <div class="header">
+    <div class="container p-2">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a href="index.html" class="navbar-brand">Aaron</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav text-center ms-auto">
+            <li><a class="nav-link " href="index.html">Home</a></li>
+            <li><a class="nav-link" href="goals.html">Goals</a></li>
+            <li><a class="nav-link" href="school.html">SP</a></li>
+            <li><a class="nav-link disabled" href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- TOP NAVBAR -->
+
+
+
+  <div class="front-page">
+    <h1 class="d-flex justify-content-center align-items-center m-0">Feedback</h1>
+  </div>
+
+  <!-- FEEDBACK FORM SECTION -->
+  <div class="feedback-page">
+    <div class="form-page">
+      <div class="form-section container">
+        <form>
+
+          <!-- ROW 1 FORM -->
+          <div class="row">
+            <div class="col-md-6">
+              <h2>First name</h2>
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col-md-6">
+              <h2>Last name</h2>
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <!-- END OF ROW 1 -->
+
+          <!-- ROW 2 FORM -->
+          <div class="form-group">
+            <h2>Email</h2>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <!-- END OF ROW 2 -->
+
+          <!-- ROW 3 FORM -->
+          <!-- This row is radios -->
+          <div class="p-4">
+            <h2>How satisfied are you with my website?</h2>
+            <div class="d-flex">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" value="option1" checked>
+                <label class="form-check-label">
+                  Very satisfied
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" value="option2">
+                <label class="form-check-label">
+                  Somewhat satisfied
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" value="option2">
+                <label class="form-check-label">
+                  Meh
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" value="option2">
+                <label class="form-check-label">
+                  Somewhat dissatisfied
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" value="option2">
+                <label class="form-check-label">
+                  Very dissatisfied
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- END OF ROW 3 -->
+
+          <!-- ROW 4 FORM -->
+          <div class="mb-3">
+            <h2>Tell me what I can improve on</h2>
+            <textarea class="form-control" id="validationTextarea" placeholder="Enter text!" required></textarea>
+          </div>
+          <!-- END OF ROW 4 -->
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <!-- END OF FORM -->
+
+  <!-- BOTTOM NAVBAR-->
+  <footer>
+    <ul class="d-flex justify-content-center">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="goals.html">Goals</a></li>
+      <li><a href="school.html">SP</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+  </footer>
+  <!-- BOTTOM NAVBAR -->
+</body>
+
+</html>
